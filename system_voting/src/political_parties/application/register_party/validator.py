@@ -6,7 +6,10 @@ class PoliticalPartyValidator:
     @staticmethod
     def validate(data):
         if not PartyType.is_valid(data["party_type"]):
-            raise ValueError("Tipo de organización política no válido")
+            raise ValueError(
+                f"Tipo de organización política no válido. "
+                f"Valores permitidos: {PartyType.PARTY} o {PartyType.MOVEMENT}"
+            )
 
         if len(data["acronym"]) > 10:
             raise ValueError("La sigla excede lo permitido")

@@ -13,11 +13,29 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from supabase import create_client
+
+try:
+
+    from supabase import create_client
+except ImportError:
+    create_client = None
+
+def get_supabase_client(url, key):
+    if create_client is None:
+        raise RuntimeError(
+            "The 'supabase' package is not installed. Install it with:\n"
+            "python -m pip install supabase"
+        )
+    if url is None or key is None:
+        raise RuntimeError(
+            "SUPABASE_URL and SUPABASE_ANON_KEY environment variables must be set. "
+            "Check your .env file."
+        )
+    return create_client(url, key)
 
 load_dotenv()
-supabase = create_client(os.getenv("SUPABASE_URL"),
-                         os.getenv("SUPABASE_ANON_KEY"))
+supabase = get_supabase_client(os.getenv("SUPABASE_URL"),
+                             os.getenv("SUPABASE_ANON_KEY"))
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

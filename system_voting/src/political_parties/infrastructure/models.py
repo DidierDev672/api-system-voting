@@ -10,3 +10,6 @@ class PoliticalPartyModel(models.Model):
     email = models.EmailField()
     foundation_date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        app_label = 'api'

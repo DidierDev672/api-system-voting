@@ -11,3 +11,6 @@ class PartyMemberModel(models.Model):
     data_authorization = models.BooleanField()
     affiliation_date = models.DateField(auto_now_add=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        app_label = 'api'
