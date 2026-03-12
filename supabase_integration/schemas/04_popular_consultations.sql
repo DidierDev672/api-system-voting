@@ -5,13 +5,15 @@ CREATE TABLE IF NOT EXISTS popular_consultations (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     title VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
-    question VARCHAR(500) NOT NULL,
-    start_date TIMESTAMP WITH TIME ZONE NOT NULL,
-    end_date TIMESTAMP WITH TIME ZONE NOT NULL,
+    questions JSONB NOT NULL CHECK (jsonb_typeof(questions) = 'array' AND jsonb_array_length(questions) > 0),
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'ACTIVE' CHECK (status IN ('ACTIVE', 'INACTIVE', 'COMPLETED', 'CANCELLED')),
     is_active BOOLEAN DEFAULT true,
-    created_by UUID REFERENCES users(id),
+    created_by UUID, -- Temporalmente sin referencia hasta que la tabla users exista
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT valid_date_range CHECK (end_date > start_date)
 );
 
 -- Tabla para opciones de consulta
@@ -37,8 +39,10 @@ CREATE TABLE IF NOT EXISTS consultation_votes (
 -- Índices para optimizar consultas
 CREATE INDEX IF NOT EXISTS idx_popular_consultations_start_date ON popular_consultations(start_date);
 CREATE INDEX IF NOT EXISTS idx_popular_consultations_end_date ON popular_consultations(end_date);
+CREATE INDEX IF NOT EXISTS idx_popular_consultations_status ON popular_consultations(status);
 CREATE INDEX IF NOT EXISTS idx_popular_consultations_is_active ON popular_consultations(is_active);
 CREATE INDEX IF NOT EXISTS idx_popular_consultations_created_by ON popular_consultations(created_by);
+CREATE INDEX IF NOT EXISTS idx_popular_consultations_questions ON popular_consultations USING GIN(questions);
 
 CREATE INDEX IF NOT EXISTS idx_consultation_options_consultation_id ON consultation_options(consultation_id);
 CREATE INDEX IF NOT EXISTS idx_consultation_options_order ON consultation_options(option_order);
@@ -86,15 +90,16 @@ CREATE TRIGGER update_popular_consultations_updated_at
     FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
 
 -- Comentarios para documentación
-COMMENT ON TABLE popular_consultations IS 'Tabla para gestionar consultas populares';
+COMMENT ON TABLE popular_consultations IS 'Tabla para gestionar consultas populares y votaciones ciudadanas';
 COMMENT ON COLUMN popular_consultations.id IS 'Identificador único de la consulta';
-COMMENT ON COLUMN popular_consultations.title IS 'Título de la consulta';
-COMMENT ON COLUMN popular_consultations.description IS 'Descripción detallada de la consulta';
-COMMENT ON COLUMN popular_consultations.question IS 'Pregunta principal de la consulta';
-COMMENT ON COLUMN popular_consultations.start_date IS 'Fecha y hora de inicio de la consulta';
-COMMENT ON COLUMN popular_consultations.end_date IS 'Fecha y hora de fin de la consulta';
-COMMENT ON COLUMN popular_consultations.is_active IS 'Indica si la consulta está activa';
-COMMENT ON COLUMN popular_consultations.created_by IS 'Usuario que creó la consulta';
+COMMENT ON COLUMN popular_consultations.title IS 'Título descriptivo de la consulta';
+COMMENT ON COLUMN popular_consultations.description IS 'Descripción detallada del contexto y propósito de la consulta';
+COMMENT ON COLUMN popular_consultations.questions IS 'PUNTO CLAVE: Array JSON de preguntas que se formularán a los ciudadanos (debe contener al menos una pregunta)';
+COMMENT ON COLUMN popular_consultations.start_date IS 'Fecha de inicio del período de votación';
+COMMENT ON COLUMN popular_consultations.end_date IS 'Fecha de fin del período de votación (debe ser posterior a start_date)';
+COMMENT ON COLUMN popular_consultations.status IS 'Estado de la consulta (ACTIVE, INACTIVE, COMPLETED, CANCELLED)';
+COMMENT ON COLUMN popular_consultations.is_active IS 'Indica si la consulta está actualmente activa para votación';
+COMMENT ON COLUMN popular_consultations.created_by IS 'Usuario administrador que creó la consulta';
 
 COMMENT ON TABLE consultation_options IS 'Tabla para opciones de respuesta de consultas';
 COMMENT ON COLUMN consultation_options.id IS 'Identificador único de la opción';
@@ -115,7 +120,7 @@ CREATE OR REPLACE VIEW consultation_results AS
 SELECT 
     c.id as consultation_id,
     c.title,
-    c.question,
+    c.questions,
     co.id as option_id,
     co.option_text,
     co.option_order,
@@ -129,7 +134,7 @@ FROM popular_consultations c
 LEFT JOIN consultation_options co ON c.id = co.consultation_id
 LEFT JOIN consultation_votes cv ON co.id = cv.option_id
 WHERE c.is_active = true
-GROUP BY c.id, c.title, c.question, co.id, co.option_text, co.option_order
+GROUP BY c.id, c.title, c.questions, co.id, co.option_text, co.option_order
 ORDER BY c.id, co.option_order;
 
 COMMENT ON VIEW consultation_results IS 'Vista que muestra resultados de consultas con conteo y porcentajes';

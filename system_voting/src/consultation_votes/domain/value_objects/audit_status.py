@@ -1,4 +1,0 @@
-class AuditStatus:
-    VALID = "VALID"
-    REJECTED = "REJECTED"
-    DUPLICATED = "DUPLICATED"
