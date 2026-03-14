@@ -1,6 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.decorators import api_view
 
 from system_voting.src.party_members.application.register_member.validator import (
     PartyMemberValidator,
@@ -86,3 +87,29 @@ class ListPartyMembersView(APIView):
                 },
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR,
             )
+
+
+@api_view(["GET"])
+def get_member_by_id(request, member_id):
+    """Obtener un miembro por ID"""
+    try:
+        member = party_members_service.get_record_by_id("party_members", member_id)
+
+        if not member:
+            return Response(
+                {"error": "Miembro no encontrado"}, status=status.HTTP_404_NOT_FOUND
+            )
+
+        return Response(
+            {"message": "Miembro obtenido exitosamente", "data": member},
+            status=status.HTTP_200_OK,
+        )
+    except Exception as e:
+        import traceback
+
+        print(f"Error en get_member_by_id: {str(e)}")
+        print(traceback.format_exc())
+        return Response(
+            {"error": "Error interno del servidor", "message": str(e)},
+            status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+        )
