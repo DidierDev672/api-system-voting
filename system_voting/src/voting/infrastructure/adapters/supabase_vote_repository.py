@@ -81,6 +81,18 @@ class SupabaseVoteRepository(VoteRepositoryPort):
 
         return [self._map_to_entity(r) for r in (results or [])]
 
+    def get_all(self) -> List[Vote]:
+        """Obtener todos los votos"""
+        logger.info("=== ADAPTER: Obteniendo todos los votos ===")
+
+        results = self.supabase_service.get_all_records(self.table_name, {})
+
+        logger.info(
+            f"=== ADAPTER: {len(results) if results else 0} votos encontrados en total ==="
+        )
+
+        return [self._map_to_entity(r) for r in (results or [])]
+
     def exists_by_member_and_consult(self, id_member: str, id_consult: str) -> bool:
         """Verificar si un miembro ya votó en una consulta"""
         logger.info(

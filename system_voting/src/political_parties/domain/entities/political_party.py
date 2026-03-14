@@ -7,8 +7,9 @@ class PoliticalParty:
         ideology: str,
         legal_representative: str,
         representative_id: str,
-        email: str,
-        foundation_date: str
+        email: str = None,
+        foundation_date: str = None,
+        is_active: bool = True,
     ):
         self.name = name
         self.acronym = acronym
@@ -18,3 +19,4 @@ class PoliticalParty:
         self.representative_id = representative_id
         self.email = email
         self.foundation_date = foundation_date
+        self.is_active = is_active

@@ -148,6 +148,18 @@ class PartyMembersService(SupabaseService):
         """Crear un nuevo miembro de partido"""
         return self.insert_record("party_members", member_data)
 
+    def get_all_members(self) -> List[Dict[str, Any]]:
+        """Obtener todos los miembros de partido"""
+        return self.get_all_records("party_members", {})
+
+    def get_all_active_members(self) -> List[Dict[str, Any]]:
+        """Obtener todos los miembros activos"""
+        try:
+            return self.get_all_records("party_members", {"is_active": True})
+        except Exception:
+            # Si la columna is_active no existe, devolver todos
+            return self.get_all_records("party_members", {})
+
     def get_members_by_party(self, party_id: str) -> List[Dict[str, Any]]:
         """Obtener miembros por partido político"""
         return self.get_all_records("party_members", {"political_party_id": party_id})
@@ -169,7 +181,11 @@ class PoliticalPartiesService(SupabaseService):
 
     def get_all_active_parties(self) -> List[Dict[str, Any]]:
         """Obtener todos los partidos activos"""
-        return self.get_all_records("political_parties", {"is_active": True})
+        try:
+            return self.get_all_records("political_parties", {"is_active": True})
+        except Exception:
+            # Si la columna is_active no existe, devolver todos
+            return self.get_all_records("political_parties", {})
 
     def get_party_by_name(self, name: str) -> Optional[Dict[str, Any]]:
         """Obtener partido por nombre"""

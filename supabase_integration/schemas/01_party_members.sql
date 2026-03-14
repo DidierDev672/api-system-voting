@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS party_members (
     consent BOOLEAN NOT NULL CHECK (consent = true),
     data_authorization BOOLEAN NOT NULL CHECK (data_authorization = true),
     affiliation_date DATE NOT NULL DEFAULT CURRENT_DATE,
+    is_active BOOLEAN DEFAULT true,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );

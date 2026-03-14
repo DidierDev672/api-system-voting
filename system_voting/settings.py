@@ -54,8 +54,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-# Configuración de URL - Sin slash automático
-APPEND_SLASH = False
+# Configuración de URL - Con slash automático
+APPEND_SLASH = True
 
 
 # Application definition
@@ -68,11 +68,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "corsheaders",
     "api",
     "system_voting.src.popular_consultation",
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -81,6 +83,13 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
+# Configuración CORS
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = "system_voting.urls"
 

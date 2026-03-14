@@ -36,6 +36,105 @@ class VoteCreateView(APIView):
         super().__init__(**kwargs)
         self.vote_repository = SupabaseVoteRepository()
 
+    def get(self, request):
+        """Endpoint GET /api/vote/ - Verificar si un miembro ya votó en una consulta o obtener todos los votos"""
+        member_id = request.query_params.get("member_id")
+        consultation_id = request.query_params.get("consultation_id")
+
+        # Si no hay parámetros, devolver todos los votos
+        if not member_id and not consultation_id:
+            try:
+                votes = self.vote_repository.get_all()
+
+                votes_data = []
+                for vote in votes:
+                    votes_data.append(
+                        {
+                            "id": vote.id,
+                            "id_consult": vote.id_consult,
+                            "id_member": vote.id_member,
+                            "id_party": vote.id_party,
+                            "id_auth": vote.id_auth,
+                            "value_vote": vote.value_vote,
+                            "comment": vote.comment,
+                            "created_at": vote.created_at,
+                        }
+                    )
+
+                return Response(
+                    {"success": True, "data": votes_data, "count": len(votes_data)},
+                    status=status.HTTP_200_OK,
+                )
+            except Exception as e:
+                logger.error(f"=== VIEW GET ALL ERROR: {str(e)} ===")
+                return Response(
+                    {"success": False, "error": str(e)},
+                    status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                )
+
+        # Si solo hay consultation_id, devolver votos de esa consulta
+        if consultation_id and not member_id:
+            try:
+                votes = self.vote_repository.find_by_consultation(consultation_id)
+
+                votes_data = []
+                for vote in votes:
+                    votes_data.append(
+                        {
+                            "id": vote.id,
+                            "id_consult": vote.id_consult,
+                            "id_member": vote.id_member,
+                            "id_party": vote.id_party,
+                            "id_auth": vote.id_auth,
+                            "value_vote": vote.value_vote,
+                            "comment": vote.comment,
+                            "created_at": vote.created_at,
+                        }
+                    )
+
+                return Response(
+                    {"success": True, "data": votes_data, "count": len(votes_data)},
+                    status=status.HTTP_200_OK,
+                )
+            except Exception as e:
+                logger.error(f"=== VIEW GET BY CONSULTATION ERROR: {str(e)} ===")
+                return Response(
+                    {"success": False, "error": str(e)},
+                    status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                )
+
+        # Verificar si un miembro ya votó en una consulta específica
+        if not member_id or not consultation_id:
+            return Response(
+                {
+                    "success": False,
+                    "error": "member_id y consultation_id son requeridos",
+                },
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+
+        try:
+            use_case = GetVotesByMemberUseCase(self.vote_repository)
+            result = use_case.execute(member_id)
+
+            # Filtrar por consulta
+            votes = [v for v in result["votes"] if v.id_consult == consultation_id]
+
+            return Response(
+                {
+                    "success": True,
+                    "has_voted": len(votes) > 0,
+                    "vote": votes[0] if votes else None,
+                },
+                status=status.HTTP_200_OK,
+            )
+        except Exception as e:
+            logger.error(f"=== VIEW GET ERROR: {str(e)} ===")
+            return Response(
+                {"success": False, "error": str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            )
+
     def post(self, request):
         """Endpoint POST /api/vote/ - Registrar un nuevo voto"""
         logger.info("=== VIEW: POST /api/vote/ - Crear voto ===")

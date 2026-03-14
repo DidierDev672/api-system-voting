@@ -32,6 +32,11 @@ class VoteRepositoryPort(ABC):
         pass
 
     @abstractmethod
+    def get_all(self) -> List[Vote]:
+        """Obtener todos los votos"""
+        pass
+
+    @abstractmethod
     def exists_by_member_and_consult(self, id_member: str, id_consult: str) -> bool:
         """Verificar si un miembro ya votó en una consulta"""
         pass
