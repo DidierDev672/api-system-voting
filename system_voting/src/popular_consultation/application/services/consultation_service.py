@@ -159,3 +159,56 @@ class ConsultationService:
         result = self.repository.update(consultation)
         logger.info(f"=== SERVICIO: Consulta cerrada: {result.id} ===")
         return result
+
+    def update_status(
+        self, consultation_id: str, new_status: str
+    ) -> PopularConsultation:
+        """Actualizar el estado de una consulta"""
+        logger.info(
+            f"=== SERVICIO: Actualizando estado de consulta: {consultation_id} a {new_status} ==="
+        )
+
+        consultation = self.repository.get_by_id(consultation_id)
+        if not consultation:
+            raise ValueError(f"Consulta no encontrada: {consultation_id}")
+
+        try:
+            status = ConsultationStatus(new_status)
+        except ValueError:
+            valid_statuses = [s.value for s in ConsultationStatus]
+            raise ValueError(
+                f"Estado inválido: {new_status}. Estados válidos: {valid_statuses}"
+            )
+
+        if status == consultation.status:
+            return consultation
+
+        if (
+            status == ConsultationStatus.PUBLISHED
+            and consultation.status == ConsultationStatus.DRAFT
+        ):
+            consultation.publish()
+        elif (
+            status == ConsultationStatus.CLOSED
+            and consultation.status == ConsultationStatus.PUBLISHED
+        ):
+            consultation.close()
+        elif status == ConsultationStatus.DRAFT:
+            consultation.status = ConsultationStatus.DRAFT
+        else:
+            valid_transitions = {
+                ConsultationStatus.DRAFT: [ConsultationStatus.PUBLISHED],
+                ConsultationStatus.PUBLISHED: [ConsultationStatus.CLOSED],
+                ConsultationStatus.CLOSED: [],
+            }
+            raise ValueError(
+                f"No se puede cambiar de '{consultation.status.value}' a '{status.value}'. "
+                f"Transiciones válidas desde '{consultation.status.value}': "
+                f"{[s.value for s in valid_transitions[consultation.status]]}"
+            )
+
+        result = self.repository.update(consultation)
+        logger.info(
+            f"=== SERVICIO: Estado actualizado a {status.value}: {result.id} ==="
+        )
+        return result

@@ -297,3 +297,44 @@ class ConsultationCloseView(View):
         except Exception as e:
             logger.error(f"=== VIEW ERROR: {str(e)} ===")
             return JsonResponse({"error": str(e)}, status=500)
+
+
+@method_decorator(csrf_exempt, name="dispatch")
+class ConsultationUpdateStatusView(View):
+    """Vista para actualizar el estado de una consulta"""
+
+    def patch(self, request, consultation_id):
+        """Actualizar el estado de una consulta"""
+        logger.info(f"=== VIEW: PATCH /consultations/{consultation_id}/status ===")
+
+        try:
+            body = json.loads(request.body)
+            new_status = body.get("status")
+
+            if not new_status:
+                return JsonResponse(
+                    {"error": "El campo 'status' es requerido"}, status=400
+                )
+
+            consultation = consultation_service.update_status(
+                consultation_id, new_status
+            )
+
+            data = {
+                "id": consultation.id,
+                "title": consultation.title,
+                "status": consultation.status.value
+                if hasattr(consultation.status, "value")
+                else consultation.status,
+                "message": "Estado actualizado exitosamente",
+            }
+
+            logger.info(f"=== VIEW: Estado actualizado: {consultation.id} ===")
+            return JsonResponse(data, status=200)
+
+        except ValueError as ve:
+            logger.warning(f"=== VIEW VALIDATION ERROR: {str(ve)} ===")
+            return JsonResponse({"error": str(ve)}, status=400)
+        except Exception as e:
+            logger.error(f"=== VIEW ERROR: {str(e)} ===")
+            return JsonResponse({"error": str(e)}, status=500)

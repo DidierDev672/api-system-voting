@@ -31,4 +31,17 @@ urlpatterns = [
     ),
     path("api/users/", include("system_voting.src.users.api.urls")),
     path("api/vote/", include("system_voting.src.voting.entrypoints.urls")),
+    path("api/v1/screenings/", include("system_voting.src.screening.entrypoints.urls")),
+    path(
+        "api/v1/municipal-council-presidents/",
+        include("system_voting.src.municipal_council_president.entrypoints.urls"),
+    ),
+    path(
+        "api/v1/municipal-council-secretaries/",
+        include("system_voting.src.municipal_council_secretary.entrypoints.urls"),
+    ),
+    path(
+        "api/v1/municipal-council-sessions/",
+        include("system_voting.src.municipal_council_session.entrypoints.urls"),
+    ),
 ]

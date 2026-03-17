@@ -882,3 +882,360 @@
 [2026-03-14 14:18:17,152] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 711c7490-ced4-44ef-802a-88eacbeb654c ===
 [2026-03-14 14:18:17,333] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '711c7490-ced4-44ef-802a-88eacbeb654c', 'title': 'Consulta minera en Ibagué - Prohibición de minería contaminante 2026', 'description': '"Los ciudadanos de Ibagué decidirán si permiten o no proyectos de minería contaminante y a cielo abierto en el municipio. Esta consulta surge tras la decisión del Consejo de Estado que declaró inconstitucional la pregunta inicial, obligando a reformularla. La nueva pregunta busca proteger las fuentes hídricas y el medio ambiente, garantizando el derecho al agua de las comunidades aledañas, en cumplimiento de la jurisprudencia constitucional sobre consultas populares mineras.', 'questions': [{'id': '', 'text': '¿Está usted de acuerdo sí o no con que en el municipio de Ibagué se ejecuten proyectos y actividades de minería contaminante y a cielo abierto?', 'options': ['Votar SÍ significa aprobar que se ejecuten proyectos de minería contaminante y a cielo abierto en Ibagué', 'Votar NO significa prohibir la minería contaminante y a cielo abierto en el municipio'], 'required': True, 'question_type': 'multiple_choice'}], 'status': 'published', 'proprietary_representation': 'El Consejo de Estado tumbó la pregunta original por considerar que inducía la respuesta. La administración municipal debe reiniciar el proceso con esta nueva pregunta más tajante [citation:3]', 'created_at': '2026-03-14T04:37:58.386747', 'updated_at': '2026-03-14T04:37:58.386747'}
 [2026-03-14 14:18:17,334] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:57:25,828] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:57:25,841] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:57:25,841] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:57:25,842] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:57:25,842] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-16 10:58:57,830] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:58:59,413] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:58:59,687] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 10:58:59,687] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:06,492] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:59:07,104] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 711c7490-ced4-44ef-802a-88eacbeb654c ===
+[2026-03-16 10:59:07,363] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '711c7490-ced4-44ef-802a-88eacbeb654c', 'title': 'Consulta minera en Ibagué - Prohibición de minería contaminante 2026', 'description': '"Los ciudadanos de Ibagué decidirán si permiten o no proyectos de minería contaminante y a cielo abierto en el municipio. Esta consulta surge tras la decisión del Consejo de Estado que declaró inconstitucional la pregunta inicial, obligando a reformularla. La nueva pregunta busca proteger las fuentes hídricas y el medio ambiente, garantizando el derecho al agua de las comunidades aledañas, en cumplimiento de la jurisprudencia constitucional sobre consultas populares mineras.', 'questions': [{'id': '', 'text': '¿Está usted de acuerdo sí o no con que en el municipio de Ibagué se ejecuten proyectos y actividades de minería contaminante y a cielo abierto?', 'options': ['Votar SÍ significa aprobar que se ejecuten proyectos de minería contaminante y a cielo abierto en Ibagué', 'Votar NO significa prohibir la minería contaminante y a cielo abierto en el municipio'], 'required': True, 'question_type': 'multiple_choice'}], 'status': 'published', 'proprietary_representation': 'El Consejo de Estado tumbó la pregunta original por considerar que inducía la respuesta. La administración municipal debe reiniciar el proceso con esta nueva pregunta más tajante [citation:3]', 'created_at': '2026-03-14T04:37:58.386747', 'updated_at': '2026-03-14T04:37:58.386747'}
+[2026-03-16 10:59:07,363] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:33,126] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:59:33,807] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:34,095] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 10:59:34,096] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:35,124] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 10:59:35,377] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 711c7490-ced4-44ef-802a-88eacbeb654c ===
+[2026-03-16 10:59:35,623] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '711c7490-ced4-44ef-802a-88eacbeb654c', 'title': 'Consulta minera en Ibagué - Prohibición de minería contaminante 2026', 'description': '"Los ciudadanos de Ibagué decidirán si permiten o no proyectos de minería contaminante y a cielo abierto en el municipio. Esta consulta surge tras la decisión del Consejo de Estado que declaró inconstitucional la pregunta inicial, obligando a reformularla. La nueva pregunta busca proteger las fuentes hídricas y el medio ambiente, garantizando el derecho al agua de las comunidades aledañas, en cumplimiento de la jurisprudencia constitucional sobre consultas populares mineras.', 'questions': [{'id': '', 'text': '¿Está usted de acuerdo sí o no con que en el municipio de Ibagué se ejecuten proyectos y actividades de minería contaminante y a cielo abierto?', 'options': ['Votar SÍ significa aprobar que se ejecuten proyectos de minería contaminante y a cielo abierto en Ibagué', 'Votar NO significa prohibir la minería contaminante y a cielo abierto en el municipio'], 'required': True, 'question_type': 'multiple_choice'}], 'status': 'published', 'proprietary_representation': 'El Consejo de Estado tumbó la pregunta original por considerar que inducía la respuesta. La administración municipal debe reiniciar el proceso con esta nueva pregunta más tajante [citation:3]', 'created_at': '2026-03-14T04:37:58.386747', 'updated_at': '2026-03-14T04:37:58.386747'}
+[2026-03-16 10:59:35,623] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:45,171] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 10:59:45,765] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 10:59:45,766] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:02:18,554] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:02:18,554] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:02:18,554] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:02:18,555] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:02:18,555] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-16 11:02:57,534] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:02:58,638] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:02:58,638] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:18:23,619] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:18:23,620] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:18:23,620] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:18:23,620] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:18:23,620] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-16 11:23:28,491] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:30,171] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:23:30,171] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:36,082] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c ===
+[2026-03-16 11:23:36,440] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c', 'title': 'Consulta sobre educación', 'description': 'Consulta popular sobre el sistema educativo', 'questions': [{'id': '', 'text': '¿Está de acuerdo con la educación gratuita?', 'options': ['Sí', 'No'], 'required': True, 'question_type': 'single_choice'}], 'status': 'draft', 'proprietary_representation': '0e9e344c-74fe-44c1-855c-aede850a382f', 'created_at': '2026-03-12T19:18:20.39577', 'updated_at': '2026-03-12T19:18:20.39577'}
+[2026-03-16 11:23:36,440] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:36,441] INFO [popular_consultation:356] services - === INICIO UPDATE DE POPULAR_CONSULTATIONS: 2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c ===
+[2026-03-16 11:23:36,441] INFO [popular_consultation:359] services - Datos de actualización: {'title': 'Consulta sobre educación', 'description': 'Consulta popular sobre el sistema educativo', 'questions': [{'id': '', 'text': '¿Está de acuerdo con la educación gratuita?', 'question_type': 'single_choice', 'options': ['Sí', 'No'], 'required': True}], 'proprietary_representation': '0e9e344c-74fe-44c1-855c-aede850a382f', 'status': 'published'}
+[2026-03-16 11:23:36,688] INFO [popular_consultation:363] services - Consulta actualizada: {'id': '2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c', 'title': 'Consulta sobre educación', 'description': 'Consulta popular sobre el sistema educativo', 'questions': [{'id': '', 'text': '¿Está de acuerdo con la educación gratuita?', 'options': ['Sí', 'No'], 'required': True, 'question_type': 'single_choice'}], 'status': 'published', 'proprietary_representation': '0e9e344c-74fe-44c1-855c-aede850a382f', 'created_at': '2026-03-12T19:18:20.39577', 'updated_at': '2026-03-12T19:18:20.39577'}
+[2026-03-16 11:23:36,689] INFO [popular_consultation:364] services - === FIN UPDATE DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:36,701] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c ===
+[2026-03-16 11:23:36,886] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '2ab8f74f-0a79-4f3a-8f2f-5c0b661c203c', 'title': 'Consulta sobre educación', 'description': 'Consulta popular sobre el sistema educativo', 'questions': [{'id': '', 'text': '¿Está de acuerdo con la educación gratuita?', 'options': ['Sí', 'No'], 'required': True, 'question_type': 'single_choice'}], 'status': 'published', 'proprietary_representation': '0e9e344c-74fe-44c1-855c-aede850a382f', 'created_at': '2026-03-12T19:18:20.39577', 'updated_at': '2026-03-12T19:18:20.39577'}
+[2026-03-16 11:23:36,886] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:40,745] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:23:40,952] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:41,137] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:23:41,137] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:44,480] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:44,670] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:23:44,671] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:53,038] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:23:53,361] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:23:53,549] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:23:53,549] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:24:17,820] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:24:30,776] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:24:39,858] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:24:39,858] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:18,733] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:25:19,127] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:25:24,722] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:25:25,100] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:25,317] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:25:25,317] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:27,687] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:25:27,917] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:28,180] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:25:28,181] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:30,447] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:30,658] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:25:30,658] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:25:55,264] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:25:55,663] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:38:56,163] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:38:56,164] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:38:56,164] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:38:56,164] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:38:56,164] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-16 11:40:52,077] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:40:53,218] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 11:40:53,219] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 11:44:48,544] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:44:48,905] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:45:17,482] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:45:17,864] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 11:50:57,677] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 15:49:12,878] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 15:49:12,881] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 15:49:12,882] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 15:49:12,882] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 15:49:12,883] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-16 16:08:38,050] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 16:08:38,500] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 16:08:38,501] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 16:10:31,315] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 16:10:52,946] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 16:10:53,336] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-16 16:10:53,337] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-16 16:11:27,054] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-16 16:11:27,770] INFO [popular_consultation:336] services - === INICIO GET BY ID DE POPULAR_CONSULTATIONS: 711c7490-ced4-44ef-802a-88eacbeb654c ===
+[2026-03-16 16:11:28,052] INFO [popular_consultation:342] services - Consulta encontrada: {'id': '711c7490-ced4-44ef-802a-88eacbeb654c', 'title': 'Consulta minera en Ibagué - Prohibición de minería contaminante 2026', 'description': '"Los ciudadanos de Ibagué decidirán si permiten o no proyectos de minería contaminante y a cielo abierto en el municipio. Esta consulta surge tras la decisión del Consejo de Estado que declaró inconstitucional la pregunta inicial, obligando a reformularla. La nueva pregunta busca proteger las fuentes hídricas y el medio ambiente, garantizando el derecho al agua de las comunidades aledañas, en cumplimiento de la jurisprudencia constitucional sobre consultas populares mineras.', 'questions': [{'id': '', 'text': '¿Está usted de acuerdo sí o no con que en el municipio de Ibagué se ejecuten proyectos y actividades de minería contaminante y a cielo abierto?', 'options': ['Votar SÍ significa aprobar que se ejecuten proyectos de minería contaminante y a cielo abierto en Ibagué', 'Votar NO significa prohibir la minería contaminante y a cielo abierto en el municipio'], 'required': True, 'question_type': 'multiple_choice'}], 'status': 'published', 'proprietary_representation': 'El Consejo de Estado tumbó la pregunta original por considerar que inducía la respuesta. La administración municipal debe reiniciar el proceso con esta nueva pregunta más tajante [citation:3]', 'created_at': '2026-03-14T04:37:58.386747', 'updated_at': '2026-03-14T04:37:58.386747'}
+[2026-03-16 16:11:28,053] INFO [popular_consultation:343] services - === FIN GET BY ID DE POPULAR_CONSULTATIONS ===
+[2026-03-17 07:48:40,867] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:48:40,869] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:48:40,869] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:48:40,870] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:48:40,870] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 07:49:04,162] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:04,162] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:04,162] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:04,162] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:04,162] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 07:49:28,014] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:28,014] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:28,015] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:28,015] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:49:28,015] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 07:50:22,935] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:50:22,935] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:50:22,935] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:50:22,935] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 07:50:22,935] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:03:01,572] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:03:01,573] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:03:01,573] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:03:01,573] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:03:01,573] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:14:48,755] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:14:48,758] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:14:48,758] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:14:48,758] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:14:48,758] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:22:11,533] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:22:11,533] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:22:11,533] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:22:11,533] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:22:11,533] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:27:36,747] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:27:36,748] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:27:36,748] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:27:36,748] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:27:36,748] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:29:25,478] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:25,478] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:25,479] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:25,479] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:25,479] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 08:29:31,537] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:33,676] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_presidents ===
+[2026-03-17 08:29:33,677] INFO [popular_consultation:64] services - Datos a insertar: {'id': '47221625-d902-4ff4-abef-2881df440ada', 'full_name': 'Juan Perez Gomez', 'document_type': 'CI', 'document_id': '1234567890', 'board_position': 'Presidente de Mesa', 'political_party': '6ba3edbc-f070-4bbe-ae56-861d867f9a17', 'election_period': '2024-2028', 'presidency_type': 'Propietario', 'position_time': '08:00 AM', 'institutional_email': 'juan.perez@municipalidad.gob', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'fingerprint': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='}
+[2026-03-17 08:29:33,977] ERROR [popular_consultation:82] services - Error insertando en municipal_council_presidents: {'message': 'new row violates row-level security policy for table "municipal_council_presidents"', 'code': '42501', 'hint': None, 'details': None}
+[2026-03-17 08:29:33,979] ERROR [popular_consultation:83] services - Exception type: APIError
+[2026-03-17 08:29:33,979] INFO [popular_consultation:84] services - === FIN ERROR INSERT RECORD ===
+[2026-03-17 08:29:59,545] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:29:59,892] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_presidents ===
+[2026-03-17 08:29:59,892] INFO [popular_consultation:64] services - Datos a insertar: {'id': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'full_name': 'Juan Perez Gomez', 'document_type': 'CI', 'document_id': '1234567890', 'board_position': 'Presidente de Mesa', 'political_party': '6ba3edbc-f070-4bbe-ae56-861d867f9a17', 'election_period': '2024-2028', 'presidency_type': 'Propietario', 'position_time': '08:00 AM', 'institutional_email': 'juan.perez@municipalidad.gob', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'fingerprint': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='}
+[2026-03-17 08:30:00,144] INFO [popular_consultation:68] services - Resultado de inserción: data=[{'id': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'full_name': 'Juan Perez Gomez', 'document_type': 'CI', 'document_id': '1234567890', 'board_position': 'Presidente de Mesa', 'political_party': '6ba3edbc-f070-4bbe-ae56-861d867f9a17', 'election_period': '2024-2028', 'presidency_type': 'Propietario', 'position_time': '08:00 AM', 'institutional_email': 'juan.perez@municipalidad.gob', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'fingerprint': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'created_at': '2026-03-17T13:35:53.097089+00:00', 'updated_at': '2026-03-17T13:35:53.097089+00:00'}] count=None
+[2026-03-17 08:30:00,144] INFO [popular_consultation:71] services - Registro insertado exitosamente: {'id': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'full_name': 'Juan Perez Gomez', 'document_type': 'CI', 'document_id': '1234567890', 'board_position': 'Presidente de Mesa', 'political_party': '6ba3edbc-f070-4bbe-ae56-861d867f9a17', 'election_period': '2024-2028', 'presidency_type': 'Propietario', 'position_time': '08:00 AM', 'institutional_email': 'juan.perez@municipalidad.gob', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'fingerprint': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'created_at': '2026-03-17T13:35:53.097089+00:00', 'updated_at': '2026-03-17T13:35:53.097089+00:00'}
+[2026-03-17 08:30:00,145] INFO [popular_consultation:74] services - === FIN INSERT RECORD ===
+[2026-03-17 08:50:50,786] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:50:50,787] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:50:50,787] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:50:50,787] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 08:50:50,787] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 09:02:44,614] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:02:44,614] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:02:44,614] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:02:44,614] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:02:44,614] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 09:03:10,191] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:03:10,191] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:03:10,191] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:03:10,192] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:03:10,192] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 09:10:20,503] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:10:20,503] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:10:20,503] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:10:20,504] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:10:20,504] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 09:10:36,046] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:10:37,350] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_secretaries ===
+[2026-03-17 09:10:37,350] INFO [popular_consultation:64] services - Datos a insertar: {'id': '6986c4e4-232f-46fd-afbc-a112d986d084', 'full_name': 'Maria Rodriguez Perez', 'document_type': 'CI', 'document_id': '9876543210', 'exact_position': 'Secretario General', 'administrative_act': 'Acuerdo Municipal 045/2024', 'possession_date': '2024-01-15', 'legal_period': '2024-2027', 'professional_title': 'Abogada', 'performance_type': 'temporal', 'institutional_email': 'maria.rodriguez@secretariamunicipal.gov', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='}
+[2026-03-17 09:10:37,582] INFO [popular_consultation:68] services - Resultado de inserción: data=[{'id': '6986c4e4-232f-46fd-afbc-a112d986d084', 'full_name': 'Maria Rodriguez Perez', 'document_type': 'CI', 'document_id': '9876543210', 'exact_position': 'Secretario General', 'administrative_act': 'Acuerdo Municipal 045/2024', 'possession_date': '2024-01-15', 'legal_period': '2024-2027', 'professional_title': 'Abogada', 'performance_type': 'temporal', 'institutional_email': 'maria.rodriguez@secretariamunicipal.gov', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'created_at': '2026-03-17T14:16:30.582233+00:00', 'updated_at': '2026-03-17T14:16:30.582233+00:00'}] count=None
+[2026-03-17 09:10:37,582] INFO [popular_consultation:71] services - Registro insertado exitosamente: {'id': '6986c4e4-232f-46fd-afbc-a112d986d084', 'full_name': 'Maria Rodriguez Perez', 'document_type': 'CI', 'document_id': '9876543210', 'exact_position': 'Secretario General', 'administrative_act': 'Acuerdo Municipal 045/2024', 'possession_date': '2024-01-15', 'legal_period': '2024-2027', 'professional_title': 'Abogada', 'performance_type': 'temporal', 'institutional_email': 'maria.rodriguez@secretariamunicipal.gov', 'digital_signature': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==', 'created_at': '2026-03-17T14:16:30.582233+00:00', 'updated_at': '2026-03-17T14:16:30.582233+00:00'}
+[2026-03-17 09:10:37,583] INFO [popular_consultation:74] services - === FIN INSERT RECORD ===
+[2026-03-17 09:24:41,723] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:24:41,723] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:24:41,723] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:24:41,723] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:24:41,724] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 09:41:42,751] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:41:42,752] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:41:42,752] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:41:42,752] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 09:41:42,752] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:06:05,303] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:06:05,304] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:06:05,304] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:06:05,304] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:06:05,304] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:06:33,233] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:06:33,237] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-17 10:06:33,237] INFO [popular_consultation:64] services - Datos a insertar: {'id': 'e29a5d1f-0c1e-4952-a9fb-ccf7ab43157d', 'title_session': 'Sesion Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00Z', 'date_hour_end': '2024-03-15T12:00:00Z', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': 'uuid-del-presidente', 'id_secretary': 'uuid-del-secretario'}
+[2026-03-17 10:06:34,956] ERROR [popular_consultation:82] services - Error insertando en municipal_council_sessions: {'message': 'invalid input syntax for type uuid: "uuid-del-presidente"', 'code': '22P02', 'hint': None, 'details': None}
+[2026-03-17 10:06:34,956] ERROR [popular_consultation:83] services - Exception type: APIError
+[2026-03-17 10:06:34,957] INFO [popular_consultation:84] services - === FIN ERROR INSERT RECORD ===
+[2026-03-17 10:07:31,603] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:07:31,605] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-17 10:07:31,605] INFO [popular_consultation:64] services - Datos a insertar: {'id': 'eb25c92b-cc18-455c-95ff-f18d4bc63c9d', 'title_session': 'Sesion Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00Z', 'date_hour_end': '2024-03-15T12:00:00Z', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-17 10:07:32,411] INFO [popular_consultation:68] services - Resultado de inserción: data=[{'id': 'eb25c92b-cc18-455c-95ff-f18d4bc63c9d', 'title_session': 'Sesion Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00+00:00', 'date_hour_end': '2024-03-15T12:00:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:13:25.345013+00:00', 'updated_at': '2026-03-17T15:13:25.345013+00:00'}] count=None
+[2026-03-17 10:07:32,412] INFO [popular_consultation:71] services - Registro insertado exitosamente: {'id': 'eb25c92b-cc18-455c-95ff-f18d4bc63c9d', 'title_session': 'Sesion Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00+00:00', 'date_hour_end': '2024-03-15T12:00:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:13:25.345013+00:00', 'updated_at': '2026-03-17T15:13:25.345013+00:00'}
+[2026-03-17 10:07:32,413] INFO [popular_consultation:74] services - === FIN INSERT RECORD ===
+[2026-03-17 10:18:19,292] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:18:19,292] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:18:19,293] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:18:19,293] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:18:19,294] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:18:51,794] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:18:51,795] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:28:38,052] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:28:38,052] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:28:38,052] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:28:38,052] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:28:38,052] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:31:14,720] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:31:14,721] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:31:14,721] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:31:14,722] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:31:14,722] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:31:27,202] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:31:27,203] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:33:52,624] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:33:52,626] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:35:37,921] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:35:37,924] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-17 10:35:37,925] INFO [popular_consultation:64] services - Datos a insertar: {'id': '15318613-8e69-4107-b450-d97c99f797c6', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-17T13:35', 'date_hour_end': '2026-03-17T15:40', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-17 10:35:38,433] INFO [popular_consultation:68] services - Resultado de inserción: data=[{'id': '15318613-8e69-4107-b450-d97c99f797c6', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-17T13:35:00+00:00', 'date_hour_end': '2026-03-17T15:40:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:41:31.408698+00:00', 'updated_at': '2026-03-17T15:41:31.408698+00:00'}] count=None
+[2026-03-17 10:35:38,434] INFO [popular_consultation:71] services - Registro insertado exitosamente: {'id': '15318613-8e69-4107-b450-d97c99f797c6', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-17T13:35:00+00:00', 'date_hour_end': '2026-03-17T15:40:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:41:31.408698+00:00', 'updated_at': '2026-03-17T15:41:31.408698+00:00'}
+[2026-03-17 10:35:38,434] INFO [popular_consultation:74] services - === FIN INSERT RECORD ===
+[2026-03-17 10:44:12,086] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:44:12,087] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:44:12,087] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:44:12,087] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:44:12,087] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:46:08,706] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:46:08,707] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:48:36,463] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:48:36,466] INFO [popular_consultation:63] services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-17 10:48:36,466] INFO [popular_consultation:64] services - Datos a insertar: {'id': '3ccb6239-1d1d-4689-a9fd-fa047617f780', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-04-04T14:01', 'date_hour_end': '2026-04-04T05:47', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-17 10:48:58,915] INFO [popular_consultation:68] services - Resultado de inserción: data=[{'id': '3ccb6239-1d1d-4689-a9fd-fa047617f780', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-04-04T14:01:00+00:00', 'date_hour_end': '2026-04-04T05:47:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:54:51.865152+00:00', 'updated_at': '2026-03-17T15:54:51.865152+00:00'}] count=None
+[2026-03-17 10:48:58,916] INFO [popular_consultation:71] services - Registro insertado exitosamente: {'id': '3ccb6239-1d1d-4689-a9fd-fa047617f780', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-04-04T14:01:00+00:00', 'date_hour_end': '2026-04-04T05:47:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-17T15:54:51.865152+00:00', 'updated_at': '2026-03-17T15:54:51.865152+00:00'}
+[2026-03-17 10:48:58,916] INFO [popular_consultation:74] services - === FIN INSERT RECORD ===
+[2026-03-17 10:57:29,691] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:29,691] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:29,692] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:29,692] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:29,692] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 10:57:43,958] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:45,578] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:57:45,888] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:59:50,838] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:59:51,543] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 10:59:52,020] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:07:18,166] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:07:40,003] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:07:40,283] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:11:35,493] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:11:36,159] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:11:36,439] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:19,885] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:20,474] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:20,778] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:39,592] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:40,138] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:12:40,435] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:19:01,868] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:19:02,835] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:19:03,136] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:22:50,614] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:22:51,249] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:22:51,564] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:07,263] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:28,832] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:29,136] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:40,595] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:41,044] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:23:41,291] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:33:13,819] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:33:13,820] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:33:13,820] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:33:13,820] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:33:13,821] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 11:33:56,281] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:34:26,292] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:34:56,299] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:35:07,522] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:35:08,019] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:35:08,246] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:38:42,334] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:38:42,337] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:39:33,489] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:39:33,491] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:40:02,988] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:40:02,989] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:45:24,355] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:45:24,981] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:45:25,226] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:46:31,294] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:46:31,295] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:46:31,295] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:46:31,295] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:46:31,295] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 11:47:08,541] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:47:09,942] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:47:10,196] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:52:22,773] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:52:22,773] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:52:22,773] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:52:22,773] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:52:22,773] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 11:52:50,031] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:53:20,036] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:53:48,414] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:53:48,954] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:53:49,200] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:55:52,243] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:55:52,811] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 11:55:53,042] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:09:29,873] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:09:29,874] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:09:29,874] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:09:29,875] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:09:29,875] INFO [popular_consultation:285] services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-17 15:14:03,380] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-17 15:14:05,333] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:14:16,183] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-17 15:14:16,184] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-17 15:14:26,900] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:14:52,996] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:14:53,382] INFO [popular_consultation:314] services - === INICIO GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-17 15:14:53,611] INFO [popular_consultation:320] services - Consultas obtenidas: 3
+[2026-03-17 15:14:53,612] INFO [popular_consultation:323] services - === FIN GET ALL CONSULTATIONS DE POPULAR_CONSULTATIONS ===
+[2026-03-17 15:14:57,665] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:14:57,666] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:15:11,146] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:15:11,556] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:15:11,828] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:18:04,596] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:18:04,597] INFO [popular_consultation:58] services - SupabaseService inicializado
+[2026-03-17 15:18:08,772] INFO [popular_consultation:58] services - SupabaseService inicializado

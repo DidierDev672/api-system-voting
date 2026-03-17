@@ -9,6 +9,7 @@ from system_voting.src.popular_consultation.entrypoints.views import (
     ConsultationDetailView,
     ConsultationPublishView,
     ConsultationCloseView,
+    ConsultationUpdateStatusView,
 )
 
 urlpatterns = [
@@ -29,5 +30,10 @@ urlpatterns = [
         "<str:consultation_id>/close/",
         ConsultationCloseView.as_view(),
         name="consultation-close",
+    ),
+    path(
+        "<str:consultation_id>/status/",
+        ConsultationUpdateStatusView.as_view(),
+        name="consultation-update-status",
     ),
 ]
