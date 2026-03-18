@@ -2,20 +2,25 @@
 Supabase integration package for the API system
 """
 
-from .services import (
-    SupabaseConfig,
+from supabase_integration.services import (
+    BancadaSupabaseService,
+    get_bancada_service,
+)
+
+from supabase_integration.base_services import (
     SupabaseService,
-    political_parties_service,
     party_members_service,
+    political_parties_service,
     users_service,
-    consultations_service
+    consultations_service,
 )
 
 __all__ = [
-    'SupabaseConfig',
-    'SupabaseService', 
-    'political_parties_service',
-    'party_members_service',
-    'users_service',
-    'consultations_service'
+    "BancadaSupabaseService",
+    "get_bancada_service",
+    "SupabaseService",
+    "party_members_service",
+    "political_parties_service",
+    "users_service",
+    "consultations_service",
 ]

@@ -11,7 +11,7 @@ from system_voting.src.political_parties.domain.entities.political_party import 
 from system_voting.src.political_parties.domain.value_objects.party_type import (
     PartyType,
 )
-from supabase_integration.services import political_parties_service
+from supabase_integration import political_parties_service
 
 
 class RegisterPoliticalPartyView(APIView):

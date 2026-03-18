@@ -6,7 +6,7 @@ Vertical Slicing + Hexagonal Architecture
 import logging
 import uuid
 from typing import List, Optional, Dict, Any
-from supabase_integration.services import SupabaseService
+from supabase_integration import SupabaseService as BaseSupabaseService
 from system_voting.src.voting.domain.entities.vote import Vote
 from system_voting.src.voting.domain.ports.vote_repository import VoteRepositoryPort
 
@@ -17,7 +17,7 @@ class SupabaseVoteRepository(VoteRepositoryPort):
     """Adaptador que implementa el puerto usando Supabase"""
 
     def __init__(self):
-        self.supabase_service = SupabaseService()
+        self.supabase_service = BaseSupabaseService()
         self.table_name = "votes_consult"
 
     def save(self, vote: Vote) -> Vote:

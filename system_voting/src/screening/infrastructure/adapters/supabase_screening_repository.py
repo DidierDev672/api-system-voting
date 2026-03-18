@@ -7,7 +7,7 @@ import uuid
 import json
 import logging
 from typing import List, Optional
-from supabase_integration.services import SupabaseService
+from supabase_integration import SupabaseService as BaseSupabaseService
 from system_voting.src.screening.domain.entities.screening import (
     Screening,
     CreateScreeningDTO,
@@ -25,7 +25,7 @@ class SupabaseScreeningRepository(ScreeningRepositoryPort):
     """Supabase implementation of ScreeningRepositoryPort"""
 
     def __init__(self):
-        self.supabase_service = SupabaseService()
+        self.supabase_service = BaseSupabaseService()
         self.table_name = "screenings"
 
     def _map_to_entity(self, data: dict) -> Screening:

@@ -44,4 +44,8 @@ urlpatterns = [
         "api/v1/municipal-council-sessions/",
         include("system_voting.src.municipal_council_session.entrypoints.urls"),
     ),
+    path(
+        "api/v1/bancadas/",
+        include("system_voting.src.bancada.presentation.urls"),
+    ),
 ]

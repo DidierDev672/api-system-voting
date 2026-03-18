@@ -1,5 +1,5 @@
 from typing import List, Optional, Dict, Any
-from supabase_integration.services import users_service
+from supabase_integration import users_service as users_svc
 from system_voting.src.users.domain.entities.user import User
 from system_voting.src.users.domain.ports.user_repository import UserRepositoryPort
 
@@ -8,7 +8,7 @@ class SupabaseUserRepository(UserRepositoryPort):
     """Adaptador - Implementación del puerto con Supabase (Hexagonal)"""
 
     def __init__(self):
-        self.supabase_service = users_service
+        self.supabase_service = users_svc
 
     def save(self, user: User) -> User:
         """Guardar un nuevo usuario en Supabase"""

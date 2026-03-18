@@ -6,7 +6,7 @@ Infrastructure Layer - Supabase Implementation
 import uuid
 import logging
 from typing import List, Optional
-from supabase_integration.services import SupabaseService
+from supabase_integration import SupabaseService as BaseSupabaseService
 from system_voting.src.municipal_council_session.domain.entities.municipal_council_session import (
     MunicipalCouncilSession,
     CreateMunicipalCouncilSessionDTO,
@@ -22,7 +22,7 @@ class SupabaseMunicipalCouncilSessionRepository(MunicipalCouncilSessionRepositor
     """Supabase implementation of MunicipalCouncilSessionRepositoryPort"""
 
     def __init__(self):
-        self.supabase_service = SupabaseService()
+        self.supabase_service = BaseSupabaseService()
         self.table_name = "municipal_council_sessions"
 
     def _map_to_entity(self, data: dict) -> MunicipalCouncilSession:

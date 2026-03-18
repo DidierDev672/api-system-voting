@@ -7,7 +7,7 @@ from system_voting.src.party_members.application.register_member.validator impor
     PartyMemberValidator,
 )
 from system_voting.src.party_members.domain.entities.party_member import PartyMember
-from supabase_integration.services import party_members_service
+from supabase_integration import party_members_service
 
 
 class RegisterPartyMemberView(APIView):

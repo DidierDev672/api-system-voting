@@ -5,7 +5,7 @@ Adapter que implementa el puerto del repositorio
 
 from typing import List, Optional, Dict, Any
 import logging
-from supabase_integration.services import consultations_service
+from supabase_integration import consultations_service as consultations_svc
 from system_voting.src.popular_consultation.domain.entities.consultation import (
     PopularConsultation,
     Question,
@@ -20,7 +20,7 @@ class SupabaseConsultationRepository:
     """Implementación del repositorio con Supabase"""
 
     def __init__(self):
-        self.supabase_service = consultations_service
+        self.supabase_service = consultations_svc
 
     def save(self, consultation: PopularConsultation) -> PopularConsultation:
         """Crear una nueva consulta popular en Supabase"""

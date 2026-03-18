@@ -71,6 +71,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "api",
     "system_voting.src.popular_consultation",
+    "system_voting.src.bancada",
 ]
 
 MIDDLEWARE = [
