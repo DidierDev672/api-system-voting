@@ -1379,3 +1379,313 @@
 [2026-03-18 16:54:51,646] INFO [popular_consultation:58] base_services - SupabaseService inicializado
 [2026-03-18 16:54:51,647] INFO [popular_consultation:58] base_services - SupabaseService inicializado
 [2026-03-18 16:54:51,647] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:16:09,531] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:09,532] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:09,532] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:09,532] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:09,532] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:16:34,262] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:34,262] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:34,263] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:34,263] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:16:34,263] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:16:34,754] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:21:52,884] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:21:52,884] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:21:52,885] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:21:52,885] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:21:52,885] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:28:08,129] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:28:08,129] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:28:08,129] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:28:08,129] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:28:08,129] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:45:07,090] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:45:07,090] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:45:07,091] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:45:07,091] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:45:07,091] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:45:27,783] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:45:27,786] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-18 17:45:27,786] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '5a2a66ca-50f7-412e-8ea8-c24be71e9ff9', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00+00:00', 'date_hour_end': '2024-03-15T12:00:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-18 17:45:29,182] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '5a2a66ca-50f7-412e-8ea8-c24be71e9ff9', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00+00:00', 'date_hour_end': '2024-03-15T12:00:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-18T22:51:24.013909+00:00', 'updated_at': '2026-03-18T22:51:24.013909+00:00'}] count=None
+[2026-03-18 17:45:29,183] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '5a2a66ca-50f7-412e-8ea8-c24be71e9ff9', 'title_session': 'Sesión Ordinaria - Marzo 2024', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2024-03-15T09:00:00+00:00', 'date_hour_end': '2024-03-15T12:00:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones - Palacio Municipal', 'orden_day': '1. Lectura de actas anteriores\n2. Informe de gestión\n3. Aprobación de presupuesto\n4. Varios', 'quorum_required': 7, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-18T22:51:24.013909+00:00', 'updated_at': '2026-03-18T22:51:24.013909+00:00'}
+[2026-03-18 17:45:29,184] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-18 17:46:19,197] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:46:19,200] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-18 17:46:19,200] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '0b08053c-7666-4462-bc35-0ff8097ae7c2', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'En progreso', 'date_hour_start': '2024-04-04T14:01:00+00:00', 'date_hour_end': '2024-04-04T17:00:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 9, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-18 17:46:19,861] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '0b08053c-7666-4462-bc35-0ff8097ae7c2', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'En progreso', 'date_hour_start': '2024-04-04T14:01:00+00:00', 'date_hour_end': '2024-04-04T17:00:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 9, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-18T22:52:14.63894+00:00', 'updated_at': '2026-03-18T22:52:14.63894+00:00'}] count=None
+[2026-03-18 17:46:19,862] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '0b08053c-7666-4462-bc35-0ff8097ae7c2', 'title_session': 'Sesión Extraordinaria - Abril 2024', 'type_session': 'Extraordinaria', 'status_session': 'En progreso', 'date_hour_start': '2024-04-04T14:01:00+00:00', 'date_hour_end': '2024-04-04T17:00:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Auditorio Principal - Casa de la Cultura', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Debate sobre proyecto de acuerdo\n4. Votación\n5. Lectura de resoluciones', 'quorum_required': 9, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-18T22:52:14.63894+00:00', 'updated_at': '2026-03-18T22:52:14.63894+00:00'}
+[2026-03-18 17:46:19,862] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-18 17:52:47,109] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:52:47,110] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:52:47,110] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:52:47,111] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:52:47,111] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-18 17:53:40,782] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:53:40,783] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:55:50,067] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:55:52,285] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:55:52,451] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:56:38,846] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 17:56:38,848] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 18:00:54,940] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 18:00:54,942] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 18:02:28,392] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-18 18:02:28,397] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:09:30,229] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:09:30,230] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:09:30,231] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:09:30,231] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:09:30,231] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:15:40,809] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:15:40,811] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:21:41,852] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:21:41,853] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:21:41,853] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:21:41,854] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:21:41,855] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:22:34,310] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:22:34,311] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:23:04,922] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:23:04,924] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:23:33,884] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:23:33,886] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:26:01,617] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:26:01,620] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:44,420] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:44,421] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:44,421] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:44,422] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:44,423] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:28:57,980] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:57,981] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:57,982] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:57,983] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:28:57,984] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:29:01,088] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:29:01,088] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:29:01,088] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:29:01,088] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:29:01,088] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:30:08,383] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:34,289] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:34,290] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:34,291] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:34,292] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:34,292] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:30:40,428] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:40,428] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:40,428] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:40,428] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:30:40,428] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:31:01,125] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:01,126] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:01,127] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:01,128] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:01,129] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:31:23,542] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:23,542] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:23,543] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:23,544] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:23,545] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:31:43,261] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:43,261] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:43,261] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:43,261] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:31:43,261] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:32:26,541] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:32:26,543] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:38:37,149] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:40:01,374] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:04,817] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:04,818] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:04,819] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:04,820] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:04,820] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 07:41:13,738] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:41:13,741] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:45:46,457] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:45:46,460] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 07:45:46,461] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '7e3ba390-c327-47d8-a763-eb7071c6a4ca', 'title_session': 'Sesion de Aprl - Reforma de educacion', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-04-01T08:30', 'date_hour_end': '2026-04-01T11:59', 'modality': 'presencial', 'place_enclosure': 'Consejo Municipal de Causaia Antioquia', 'orden_day': '1. Apertura y Protocolo\n2. Diagnóstico de la Situación Actual\n3. Debate sobre el Proyecto de Reforma\n4. Financiamiento y Presupuesto\n5. Participación Ciudadana y Estudiantil\n6. Conclusiones y Votación\n7. Cierre de Sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-19 07:45:46,800] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '7e3ba390-c327-47d8-a763-eb7071c6a4ca', 'title_session': 'Sesion de Aprl - Reforma de educacion', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-04-01T08:30:00+00:00', 'date_hour_end': '2026-04-01T11:59:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Consejo Municipal de Causaia Antioquia', 'orden_day': '1. Apertura y Protocolo\n2. Diagnóstico de la Situación Actual\n3. Debate sobre el Proyecto de Reforma\n4. Financiamiento y Presupuesto\n5. Participación Ciudadana y Estudiantil\n6. Conclusiones y Votación\n7. Cierre de Sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T12:51:42.314465+00:00', 'updated_at': '2026-03-19T12:51:42.314465+00:00'}] count=None
+[2026-03-19 07:45:46,801] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '7e3ba390-c327-47d8-a763-eb7071c6a4ca', 'title_session': 'Sesion de Aprl - Reforma de educacion', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-04-01T08:30:00+00:00', 'date_hour_end': '2026-04-01T11:59:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Consejo Municipal de Causaia Antioquia', 'orden_day': '1. Apertura y Protocolo\n2. Diagnóstico de la Situación Actual\n3. Debate sobre el Proyecto de Reforma\n4. Financiamiento y Presupuesto\n5. Participación Ciudadana y Estudiantil\n6. Conclusiones y Votación\n7. Cierre de Sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T12:51:42.314465+00:00', 'updated_at': '2026-03-19T12:51:42.314465+00:00'}
+[2026-03-19 07:45:46,802] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 07:46:13,655] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:46:33,660] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:46:49,653] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:47:38,153] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:07,986] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:08,350] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:11,782] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:41,799] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:42,093] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:48:47,619] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:49:17,637] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:49:30,302] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:55:09,133] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:55:09,142] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:57:43,344] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:57:43,347] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 07:57:43,347] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '2640be9a-b533-4b22-baed-9b45881ce8f8', 'title_session': 'Sesión Extraordinaria - Reforma Ambiental y Tecnológica', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-19T08:00', 'date_hour_end': '2026-03-19T10:59', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Sala Virtual', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Primer debate: Proyecto de Acuerdo 001 - Política Pública de Gestión Ambiental\n4. Segundo debate: Proyecto de Acuerdo 002 - Agenda Digital Municipal\n5. Intervenciones ciudadana\\n6. Votación de los proyectos\n7. Lectura y aprobación de resoluciones\n8. Varios', 'quorum_required': 11, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-19 07:58:04,787] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '2640be9a-b533-4b22-baed-9b45881ce8f8', 'title_session': 'Sesión Extraordinaria - Reforma Ambiental y Tecnológica', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-19T08:00:00+00:00', 'date_hour_end': '2026-03-19T10:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Sala Virtual', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Primer debate: Proyecto de Acuerdo 001 - Política Pública de Gestión Ambiental\n4. Segundo debate: Proyecto de Acuerdo 002 - Agenda Digital Municipal\n5. Intervenciones ciudadana\\n6. Votación de los proyectos\n7. Lectura y aprobación de resoluciones\n8. Varios', 'quorum_required': 11, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T13:04:00.281972+00:00', 'updated_at': '2026-03-19T13:04:00.281972+00:00', 'members': None, 'bancadas': None}] count=None
+[2026-03-19 07:58:04,788] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '2640be9a-b533-4b22-baed-9b45881ce8f8', 'title_session': 'Sesión Extraordinaria - Reforma Ambiental y Tecnológica', 'type_session': 'Extraordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-19T08:00:00+00:00', 'date_hour_end': '2026-03-19T10:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Sala Virtual', 'orden_day': '1. Verificación de quórum\n2. Aprobación del orden del día\n3. Primer debate: Proyecto de Acuerdo 001 - Política Pública de Gestión Ambiental\n4. Segundo debate: Proyecto de Acuerdo 002 - Agenda Digital Municipal\n5. Intervenciones ciudadana\\n6. Votación de los proyectos\n7. Lectura y aprobación de resoluciones\n8. Varios', 'quorum_required': 11, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T13:04:00.281972+00:00', 'updated_at': '2026-03-19T13:04:00.281972+00:00', 'members': None, 'bancadas': None}
+[2026-03-19 07:58:04,788] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 07:58:09,300] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 07:58:09,988] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:23,094] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:23,102] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:23,111] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:23,121] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:23,131] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 08:08:40,750] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:40,751] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:40,751] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:40,751] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:40,752] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 08:08:48,646] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:48,647] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:48,647] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:48,647] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:48,647] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 08:08:57,391] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:57,392] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:57,393] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:57,393] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:08:57,394] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 08:09:04,568] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:09:04,569] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:09:04,569] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:09:04,569] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 08:09:04,569] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 09:06:07,242] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:06:17,201] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:06:17,203] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:10:16,277] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:10:16,279] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 09:10:16,279] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '84c7dd37-62d1-47ba-9d49-133c582774fd', 'title_session': 'Sesión Ordinaria - Regulación de la Inteligencia Artificial en Colegios y Fuerzas Militares', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-03-31T09:08', 'date_hour_end': '2026-03-19T11:59', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Consejo Deliberante', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura y aprobación del orden del día\n3. Presentación del proyecto de regulación de IA en instituciones educativas\n4. Debate sobre el uso de IA en las fuerzas militares del municipio\n5. Intervención de representantes del sector educativo\n6. Intervención de representantes de fuerzas de seguridad\n7. Votación de propuesta de regulación educativa\n8. Votación de propuesta de regulación militar\n9. Cierre de sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-19 09:10:37,706] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '84c7dd37-62d1-47ba-9d49-133c582774fd', 'title_session': 'Sesión Ordinaria - Regulación de la Inteligencia Artificial en Colegios y Fuerzas Militares', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-03-31T09:08:00+00:00', 'date_hour_end': '2026-03-19T11:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Consejo Deliberante', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura y aprobación del orden del día\n3. Presentación del proyecto de regulación de IA en instituciones educativas\n4. Debate sobre el uso de IA en las fuerzas militares del municipio\n5. Intervención de representantes del sector educativo\n6. Intervención de representantes de fuerzas de seguridad\n7. Votación de propuesta de regulación educativa\n8. Votación de propuesta de regulación militar\n9. Cierre de sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T14:16:33.264859+00:00', 'updated_at': '2026-03-19T14:16:33.264859+00:00', 'members': None, 'bancadas': None}] count=None
+[2026-03-19 09:10:37,706] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '84c7dd37-62d1-47ba-9d49-133c582774fd', 'title_session': 'Sesión Ordinaria - Regulación de la Inteligencia Artificial en Colegios y Fuerzas Militares', 'type_session': 'Ordinaria', 'status_session': 'En progreso', 'date_hour_start': '2026-03-31T09:08:00+00:00', 'date_hour_end': '2026-03-19T11:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal - Consejo Deliberante', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura y aprobación del orden del día\n3. Presentación del proyecto de regulación de IA en instituciones educativas\n4. Debate sobre el uso de IA en las fuerzas militares del municipio\n5. Intervención de representantes del sector educativo\n6. Intervención de representantes de fuerzas de seguridad\n7. Votación de propuesta de regulación educativa\n8. Votación de propuesta de regulación militar\n9. Cierre de sesión', 'quorum_required': 12, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T14:16:33.264859+00:00', 'updated_at': '2026-03-19T14:16:33.264859+00:00', 'members': None, 'bancadas': None}
+[2026-03-19 09:10:37,707] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 09:10:41,815] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:10:42,566] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:28:12,333] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:28:12,334] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:28:12,335] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:28:12,335] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:28:12,336] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 09:29:05,949] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:30:06,985] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:30:06,991] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:39:26,770] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:39:26,785] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 09:39:26,786] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': 'd0553594-93e0-4589-9c7e-035873b476f6', 'title_session': '"Sesión Ordinaria - Creación del Club de Lectura en la Biblioteca Municipal', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-20T10:00', 'date_hour_end': '2026-03-20T11:59', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del proyecto de creación del Club de Lectura\n4. Intervención del director de la Biblioteca Municipal\n5. Propuesta de reglamento interno del club\n6. Definición de frecuencia y horarios de reuniones\n7. Presupuesto estimado para materiales y actividades\n8. Selección de obras literarias para el primer ciclo\n9. Votación del proyecto\n10. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-19 09:39:27,154] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': 'd0553594-93e0-4589-9c7e-035873b476f6', 'title_session': '"Sesión Ordinaria - Creación del Club de Lectura en la Biblioteca Municipal', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-20T10:00:00+00:00', 'date_hour_end': '2026-03-20T11:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del proyecto de creación del Club de Lectura\n4. Intervención del director de la Biblioteca Municipal\n5. Propuesta de reglamento interno del club\n6. Definición de frecuencia y horarios de reuniones\n7. Presupuesto estimado para materiales y actividades\n8. Selección de obras literarias para el primer ciclo\n9. Votación del proyecto\n10. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T14:45:22.737957+00:00', 'updated_at': '2026-03-19T14:45:22.737957+00:00', 'members': None, 'bancadas': None}] count=None
+[2026-03-19 09:39:27,155] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': 'd0553594-93e0-4589-9c7e-035873b476f6', 'title_session': '"Sesión Ordinaria - Creación del Club de Lectura en la Biblioteca Municipal', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-03-20T10:00:00+00:00', 'date_hour_end': '2026-03-20T11:59:00+00:00', 'modality': 'hibrida', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del proyecto de creación del Club de Lectura\n4. Intervención del director de la Biblioteca Municipal\n5. Propuesta de reglamento interno del club\n6. Definición de frecuencia y horarios de reuniones\n7. Presupuesto estimado para materiales y actividades\n8. Selección de obras literarias para el primer ciclo\n9. Votación del proyecto\n10. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T14:45:22.737957+00:00', 'updated_at': '2026-03-19T14:45:22.737957+00:00', 'members': None, 'bancadas': None}
+[2026-03-19 09:39:27,156] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 09:39:31,428] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:39:32,320] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:47:04,627] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:47:04,628] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:47:04,629] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:47:04,629] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:47:04,630] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 09:48:50,086] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 09:48:50,087] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:02:04,675] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:02:04,679] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 10:02:26,538] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 10:02:32,643] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:02:33,670] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:14,529] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:14,531] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:14,532] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:14,532] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:14,533] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 10:07:41,837] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:41,838] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:41,838] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:41,839] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:07:41,839] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 10:08:07,637] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:07,638] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:07,639] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:07,639] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:07,640] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 10:08:33,662] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:33,663] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:33,664] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:33,665] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:08:33,665] INFO [popular_consultation:285] base_services - ConsultationsService inicializado para tabla popular_consultations
+[2026-03-19 10:11:13,233] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:11:13,233] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:11:15,308] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:11:15,416] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:30:21,681] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:30:21,684] INFO [popular_consultation:63] base_services - === INICIO INSERT RECORD EN TABLA municipal_council_sessions ===
+[2026-03-19 10:30:21,685] INFO [popular_consultation:64] base_services - Datos a insertar: {'id': '709ecf81-8293-43bb-9123-17d68a4da584', 'title_session': 'Sesión Ordinaria - Implementación de Tecnología en el Sector Agrario', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-06-20T10:28', 'date_hour_end': '2026-06-20T12:30', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del plan de modernización tecnológica del sector agrario\n4. Intervención del Director de Agricultura Municipal\n5. Propuesta de drones para vigilancia de cultivos\n6. Implementación de sistemas de riego inteligente\n7. Uso de sensores IoT para monitoreo de suelo y clima\n8. Capacitación tecnológica para productores agrícolas\n9. Convenios con empresas tecnológicas del sector\n10. Asignación presupuestaria para el programa\n11. Votación del proyecto\n12. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084'}
+[2026-03-19 10:30:22,135] INFO [popular_consultation:68] base_services - Resultado de inserción: data=[{'id': '709ecf81-8293-43bb-9123-17d68a4da584', 'title_session': 'Sesión Ordinaria - Implementación de Tecnología en el Sector Agrario', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-06-20T10:28:00+00:00', 'date_hour_end': '2026-06-20T12:30:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del plan de modernización tecnológica del sector agrario\n4. Intervención del Director de Agricultura Municipal\n5. Propuesta de drones para vigilancia de cultivos\n6. Implementación de sistemas de riego inteligente\n7. Uso de sensores IoT para monitoreo de suelo y clima\n8. Capacitación tecnológica para productores agrícolas\n9. Convenios con empresas tecnológicas del sector\n10. Asignación presupuestaria para el programa\n11. Votación del proyecto\n12. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T15:36:17.774962+00:00', 'updated_at': '2026-03-19T15:36:17.774962+00:00', 'members': None, 'bancadas': None}] count=None
+[2026-03-19 10:30:22,136] INFO [popular_consultation:71] base_services - Registro insertado exitosamente: {'id': '709ecf81-8293-43bb-9123-17d68a4da584', 'title_session': 'Sesión Ordinaria - Implementación de Tecnología en el Sector Agrario', 'type_session': 'Ordinaria', 'status_session': 'Convocada', 'date_hour_start': '2026-06-20T10:28:00+00:00', 'date_hour_end': '2026-06-20T12:30:00+00:00', 'modality': 'presencial', 'place_enclosure': 'Salón de Sesiones del Palacio Municipal', 'orden_day': '1. Apertura de sesión y verificación de quórum\n2. Lectura del orden del día\n3. Presentación del plan de modernización tecnológica del sector agrario\n4. Intervención del Director de Agricultura Municipal\n5. Propuesta de drones para vigilancia de cultivos\n6. Implementación de sistemas de riego inteligente\n7. Uso de sensores IoT para monitoreo de suelo y clima\n8. Capacitación tecnológica para productores agrícolas\n9. Convenios con empresas tecnológicas del sector\n10. Asignación presupuestaria para el programa\n11. Votación del proyecto\n12. Cierre de sesión', 'quorum_required': 10, 'id_president': '7f1fb0cb-f8b4-49c7-a239-2e5d802d1336', 'id_secretary': '6986c4e4-232f-46fd-afbc-a112d986d084', 'created_at': '2026-03-19T15:36:17.774962+00:00', 'updated_at': '2026-03-19T15:36:17.774962+00:00', 'members': None, 'bancadas': None}
+[2026-03-19 10:30:22,137] INFO [popular_consultation:74] base_services - === FIN INSERT RECORD ===
+[2026-03-19 10:30:49,978] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:30:56,318] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:32:46,005] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:33:51,387] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:33:57,942] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:33:58,320] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:35:35,297] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:35:35,320] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:40:05,616] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:40:05,617] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:43:59,985] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:51:05,478] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 10:58:41,180] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:04:10,221] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:05:13,525] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:05:33,529] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:08:56,842] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:34:43,828] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:34:57,588] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:35:04,517] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:35:29,680] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:35:31,887] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:35:32,161] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:40:27,790] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:40:47,797] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:41:01,535] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:41:09,120] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:41:57,435] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:42:03,341] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:43:12,692] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:43:19,034] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:43:23,257] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:49:17,072] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 11:49:37,077] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 13:57:31,707] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:01:40,817] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:01:55,808] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:04:34,336] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:08:27,064] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:08:46,999] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:10:06,337] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:10:12,633] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:10:35,534] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:10:35,538] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:11:40,013] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:12:00,010] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:12:19,713] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:12:26,060] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:25:17,232] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:26:57,204] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:31:49,150] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:32:13,838] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:34:33,146] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:37:27,687] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:37:37,931] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:37:43,401] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:37:55,934] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:38:50,856] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:40:20,237] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:40:26,119] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:40:50,220] INFO [popular_consultation:58] base_services - SupabaseService inicializado
+[2026-03-19 14:41:23,376] INFO [popular_consultation:58] base_services - SupabaseService inicializado
