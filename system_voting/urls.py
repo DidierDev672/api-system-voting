@@ -48,4 +48,8 @@ urlpatterns = [
         "api/v1/bancadas/",
         include("system_voting.src.bancada.presentation.urls"),
     ),
+    path(
+        "api/v1/alcaldias/",
+        include("system_voting.src.alcaldia.entrypoints.urls"),
+    ),
 ]
